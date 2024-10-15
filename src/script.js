@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const soundToggle = document.getElementById('soundToggle');
     const video = document.getElementById('invitationVideo');
     const languageIcon = document.getElementById('languageIcon');
-    let isEnglish = false;
+    let isEnglish = true;
 
     languageToggle.addEventListener('click', function() {
         isEnglish = !isEnglish;
