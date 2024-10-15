@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         isEnglish = !isEnglish;
         if (isEnglish) {
             video.src = 'english_invitation.mp4';
-            languageIcon.src = 'images/tr.png';
+            languageIcon.src = 'tr.png';
             languageIcon.alt = 'Turkish';
         } else {
             video.src = 'turkish_invitation.mp4';
