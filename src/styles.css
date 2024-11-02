@@ -28,6 +28,7 @@ html, body {
     object-fit: cover;
     opacity: 0;
     transition: opacity 0.5s ease;
+    display: block;
 }
 
 .content {
