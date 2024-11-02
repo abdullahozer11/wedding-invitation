@@ -103,6 +103,59 @@ header {
     font-size: 16px;
 }
 
+/* Add to styles.css */
+.address-dropdown {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    background: none;
+    color: #333;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(76, 175, 80, 0.1);
+}
+
+.dropdown-item i {
+    margin-right: 8px;
+    width: 16px;
+}
+
+.copy-alert {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(76, 175, 80, 0.9);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.copy-alert.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (min-width: 768px) {
     #invitationVideo {
         width: 100%;
